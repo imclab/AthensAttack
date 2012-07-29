@@ -7,26 +7,37 @@ a {
   color: #00B7FF;
 }
 
-html, body, #map {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.stations, .stations svg {
+.attacks, .attacks svg {
   position: absolute;
 }
 
-.stations svg {
+.attacks svg {
   width:50px;
   height:50px;
   padding-right: 100px;
   font: 10px sans-serif;
 }
 
-.stations circle {
+.attacks circle {
   fill: brown;
   stroke: black;
   stroke-width: 1.5px;
 }
+
+html, body {
+  height: 100%;
+  background: #E6E6E6;
+  margin: 0;
+  font: 10px sans-serif;
+}
+
+svg {
+  display: block;
+}
+
+circle {
+  stroke: black;
+  fill: brown;
+  fill-opacity: .5;
+}
+
